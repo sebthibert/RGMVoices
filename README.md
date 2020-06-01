@@ -1,3 +1,3 @@
 # RGMVoices
 
-A description of this package.
+A legendary selection of sayings by members of the RGM.
