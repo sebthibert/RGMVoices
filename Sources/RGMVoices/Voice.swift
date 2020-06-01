@@ -4,7 +4,7 @@ public enum Voice {
   case seb
   case jack
 
-  var title: String {
+  public var title: String {
     switch self {
     case .seb:
       return "Seb"
@@ -13,7 +13,7 @@ public enum Voice {
     }
   }
 
-  var aka: String {
+  public var aka: String {
     let aka = "Aka: "
     switch self {
     case .seb:
@@ -23,7 +23,7 @@ public enum Voice {
     }
   }
 
-  var titleSound: Sound {
+  public var titleSound: Sound {
     switch self {
     case .seb:
       return Sound(title: "Seb", resource: "sebTitle.wav")
@@ -32,7 +32,7 @@ public enum Voice {
     }
   }
 
-  var sounds: [Sound] {
+  public var sounds: [Sound] {
     switch self {
     case .seb:
       return [
