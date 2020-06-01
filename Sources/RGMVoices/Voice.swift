@@ -1,6 +1,6 @@
 import Foundation
 
-enum Voice {
+public enum Voice {
   case seb
   case jack
 

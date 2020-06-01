@@ -1,6 +1,6 @@
 import Foundation
 
-struct Sound {
+public struct Sound {
   let title: String
   let resource: String
 
